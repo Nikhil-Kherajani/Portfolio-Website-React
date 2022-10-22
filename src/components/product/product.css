@@ -1,14 +1,24 @@
-.p {
+.main{
+  display: flex;
+  flex-direction: column;
   width: 30%;
-  height: 40vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+  background-color: azure;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+  position: relative;
+
+}
+
+.p {
+  flex: content;
+  
 }
 
 .p-browser {
-  height: 20px;
+  height: 25px;
   background-color: rgb(243, 242, 242);
   display: flex;
   align-items: center;
@@ -21,21 +31,69 @@
   height: 6px;
   border-radius: 50%;
   margin: 3px;
-  background-color: white;
+  background-color: rgb(49, 131, 231);
+}
+.project-name-text{
+  color: white;
+  font-size: 3vh;
+  position: sticky;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project-name {
+  margin: 3px;
+  border-radius: 5px;
+  background-color: rgb(168, 177, 187);
+  height: auto;
 }
 
 .p-img {
   width: 100%;
-  transition: all 10s ease;
+  transition: all 3s ease;
 }
 
 .p:hover .p-img {
-  transform: translateY(-100%);
+  transform: scale(1.2);
+}
+
+.discription{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  color:black;
+}
+.button333{
+  border-radius: 5px;
+  height: auto;
+  width: 7rem;
+  align-self: center;
+  font-size: 1;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+  
+}
+
+.buttondiv{
+  display: flex;
+  justify-content: space-around;
+  
 }
 
 @media screen and (max-width: 480px) {
-  .p {
+  .main {
     width: 40%;
-    height: 20vh;
   }
+  .project-name-text{
+    color: white;
+    font-size: 2.3vh;
+  }
+  .discription{
+    height: 10vh;
+  }
+  .button333{
+    display: none;
+  }
+  
 }

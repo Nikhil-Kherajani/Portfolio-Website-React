@@ -19,9 +19,19 @@
   cursor: pointer;
 }
 
-.button1 {background-color: #59B256;} /* Green */
+.button1 {
+  background-color: #59B256;
+  
+
+} /* Green */
+.button1:hover {
+  background-color: #3bb937;
+}
 .button2 {background-color: #26559F;} /* Blue */
 
+.button2:hover{
+  background-color: #2063cf;
+}
 
 .i {
   display: flex;
