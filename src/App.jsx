@@ -7,7 +7,8 @@ import ProductList from "./components/productList/ProductList";
 import { ThemeContext } from "./context";
 
 const App = () => {
-  
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div
       style={{
