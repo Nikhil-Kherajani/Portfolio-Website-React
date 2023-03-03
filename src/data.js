@@ -25,28 +25,4 @@ export const products = [
     discription:
       "dsjafls dfjsdlfkjsf sd fjsdf fjs fs dfjsjfjsd fsf djfd dsfls fs fsd ljsld ass flsdjflsf ds fljdkjksdjf sf sd sdjls fs dljsdfksjdfk sdf sjdfk sdds fjsdfjsadfklj asdfs fekje e jfkjelkfj efjef ljaljlef ejfelkjfe gelg egelkg eg.",
   },
-  {
-    id: 4,
-    img: "",
-    link: "http://lama.dev",
-    projectname: "project name 5",
-    discription:
-      "dsjafls dfjsdlfkjsf sd fjsdf fjs fs dfjsjfjsd fsf djfd dsfls fs fsd ljsld ass flsdjflsf ds fljdkjksdjf sf sd sdjls fs dljsdfksjdfk sdf sjdfk sdds fjsdfjsadfklj asdfs fekje e jfkjelkfj efjef ljaljlef ejfelkjfe gelg egelkg eg.",
-  },
-  {
-    id: 5,
-    img: "",
-    link: "http://lama.dev",
-    projectname: "project name 5",
-    discription:
-      "dsjafls dfjsdlfkjsf sd fjsdf fjs fs dfjsjfjsd fsf djfd dsfls fs fsd ljsld ass flsdjflsf ds fljdkjksdjf sf sd sdjls fs dljsdfksjdfk sdf sjdfk sdds fjsdfjsadfklj asdfs fekje e jfkjelkfj efjef ljaljlef ejfelkjfe gelg egelkg eg.",
-  },
-  {
-    id: 6,
-    img: "",
-    link: "http://lama.dev",
-    projectname: "project name 5",
-    discription:
-      "dsjafls dfjsdlfkjsf sd fjsdf fjs fs dfjsjfjsd fsf djfd dsfls fs fsd ljsld ass flsdjflsf ds fljdkjksdjf sf sd sdjls fs dljsdfksjdfk sdf sjdfk sdds fjsdfjsadfklj asdfs fekje e jfkjelkfj efjef ljaljlef ejfelkjfe gelg egelkg eg.",
-  },
 ];
