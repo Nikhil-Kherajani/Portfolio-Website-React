@@ -26,15 +26,15 @@ const About = () => {
         🔹Working on some projects which can solve real-life problems.<br></br>
         🔹Obsessed with artificial intelligence and machine learning.<br></br>
         🔹An aspiring web developer (Front-end + Back-end), very well familiar with HTML, CSS, JavaScript and proficiency in React Js and Currently learning React Native .<br></br>
-        🔹3 star coder at CodeChef.
+        🔹2 star coder at CodeChef.
         </p><br></br>
-        <p>Education : </p>
+        <p className = "aboutp">Education : </p>
         <div className="a-award">
           <img src={College_pic} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <h4 className="a-award-title">Lakshmi Narain College of Technology & Science</h4>
             <p className="a-award-desc">
-            Bachelor of Technology in Computer Science Engineering </p><br></br><p>— CGPA : 9.88/10    (2020 - 2024)
+            Bachelor of Technology in Computer Science Engineering </p><br></br><p>— CGPA : 8.37/10    (2020 - 2024)
             </p>
           </div>
         </div>

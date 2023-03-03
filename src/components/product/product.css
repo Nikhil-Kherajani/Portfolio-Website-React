@@ -14,7 +14,6 @@
 
 .p {
   flex: content;
-  
 }
 
 .p-browser {
@@ -55,6 +54,10 @@
   transform: scale(1.2);
 }
 
+/* .button333 :hover{
+  cursor: pointer;
+} */
+
 .discription{
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(243, 242, 242);
@@ -63,21 +66,22 @@
   color:black;
 }
 .button333{
+  flex: .3;
   border-radius: 5px;
-  height: auto;
-  width: 7rem;
-  align-self: center;
-  font-size: 1;
-  padding: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  
-  
+  font-size: 2vh;
+
+}
+.test{
+  flex: .5;
+  font-size: 150%;
 }
 
 .buttondiv{
+  /* background-color: blue; */
+  height: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; 
+  align-items: center; 
   
 }
 
@@ -90,10 +94,25 @@
     font-size: 2.3vh;
   }
   .discription{
-    height: 10vh;
+    height: 14vh;
+    overflow: hidden;
+  }
+  .buttondiv{
+    height: 5vh;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .test{
+    flex: 1;
+    font-size: 2.5vh;
   }
   .button333{
     display: none;
+    
   }
+  
   
 }

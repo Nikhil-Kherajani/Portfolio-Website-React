@@ -29,14 +29,16 @@
 @media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
-    margin-top: 50vh;
+    margin-top: 5vh;
   }
 
   .pl-texts {
     width: 100%;
   }
 
-  .pl-desc {
-    display: none;
+  
+  .pl-title {
+    font-size: 40px;
+    font-weight: 600;
   }
 }

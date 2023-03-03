@@ -1,0 +1,24 @@
+.techstackdiv{
+    width: "100%";
+     height: "auto";
+     display: flex;
+     flex-direction: column;
+}
+.techstackp{
+    align-self: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:480px) {
+    .techstackdiv{
+        margin-top: 50vh;
+        margin-bottom: 10vh;
+    }
+    .techstackp{
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+  }

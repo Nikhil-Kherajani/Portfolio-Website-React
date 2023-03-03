@@ -5,6 +5,7 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 // import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
+import TechStack from "./components/TechStack/TechStack";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -15,10 +16,12 @@ const App = () => {
         backgroundColor: darkMode ? "#222" : "white",
         color: darkMode && "white",
       }}
+      
     >
       {/* <Toggle /> */}
       <Intro />
       <About />
+      <TechStack/>
       <ProductList />
       <Contact />
     </div>

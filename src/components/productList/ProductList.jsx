@@ -8,14 +8,12 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">Projects</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+        There are some projects I have created that solve real-life problems
         </p>
       </div>
       <div className="pl-list">
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} projectname={item.projectname} discription={item.discription}/>
+          <Product key={item.id} img={item.img} link={item.link} projectname={item.projectname} discription={item.discription} videolink={item.videolink}/>
         ))}
       </div>
     </div>

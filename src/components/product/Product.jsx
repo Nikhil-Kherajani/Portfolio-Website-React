@@ -2,14 +2,13 @@ import { useState } from "react";
 import "./product.css";
 
 
-
-
-const Product = ({img,link , projectname , discription}) => {
+const Product = ({img,link , projectname , discription, videolink}) => {
   const [readmore, setreadmore] = useState(false);
   const toggle = ()=> {
 
     readmore ?setreadmore(false): setreadmore(true);
   }
+  
 
   return (
     <>
@@ -31,7 +30,9 @@ const Product = ({img,link , projectname , discription}) => {
     </div>
     <div className="buttondiv">
     <button className="button333" onClick={toggle} >{readmore? "Read less" : "Read more"}</button>
-    <button className="button333" onClick={toggle} >Video Demo</button>
+    
+    <a className="test" href="https://www.youtube.com/channel/UCZwZO0248VoV5gaJIjPCexA">Video Demo</a>
+    
     </div>
     </div>
     </>
