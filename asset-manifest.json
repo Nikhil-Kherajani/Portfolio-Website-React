@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website-React/static/css/main.430e2fda.chunk.css",
-    "main.js": "/Portfolio-Website-React/static/js/main.676e2dff.chunk.js",
-    "main.js.map": "/Portfolio-Website-React/static/js/main.676e2dff.chunk.js.map",
+    "main.css": "/Portfolio-Website-React/static/css/main.592e25cd.chunk.css",
+    "main.js": "/Portfolio-Website-React/static/js/main.1f149504.chunk.js",
+    "main.js.map": "/Portfolio-Website-React/static/js/main.1f149504.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website-React/static/js/runtime-main.70773203.js",
     "runtime-main.js.map": "/Portfolio-Website-React/static/js/runtime-main.70773203.js.map",
     "static/js/2.13c43cb6.chunk.js": "/Portfolio-Website-React/static/js/2.13c43cb6.chunk.js",
     "static/js/2.13c43cb6.chunk.js.map": "/Portfolio-Website-React/static/js/2.13c43cb6.chunk.js.map",
     "index.html": "/Portfolio-Website-React/index.html",
-    "static/css/main.430e2fda.chunk.css.map": "/Portfolio-Website-React/static/css/main.430e2fda.chunk.css.map",
+    "static/css/main.592e25cd.chunk.css.map": "/Portfolio-Website-React/static/css/main.592e25cd.chunk.css.map",
     "static/js/2.13c43cb6.chunk.js.LICENSE.txt": "/Portfolio-Website-React/static/js/2.13c43cb6.chunk.js.LICENSE.txt",
     "static/media/LNCT-college.08cb9ed1.jpg": "/Portfolio-Website-React/static/media/LNCT-college.08cb9ed1.jpg",
     "static/media/address.a01cb8cc.png": "/Portfolio-Website-React/static/media/address.a01cb8cc.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.70773203.js",
     "static/js/2.13c43cb6.chunk.js",
-    "static/css/main.430e2fda.chunk.css",
-    "static/js/main.676e2dff.chunk.js"
+    "static/css/main.592e25cd.chunk.css",
+    "static/js/main.1f149504.chunk.js"
   ]
 }
