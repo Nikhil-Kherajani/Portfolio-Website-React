@@ -3,7 +3,7 @@ import me from "./img/me.png";
 export const products = [
   {
     id: 1,
-    img: me,
+    img: "https://babble-chat-app-nk.netlify.app/static/media/logo.89df320fe2654473ab9c.png",
     link: "https://babble-chat-app-nk.netlify.app/",
     projectname: "project name 5",
     discription:
