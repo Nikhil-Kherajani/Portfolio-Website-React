@@ -1,6 +1,6 @@
 import "./intro.css";
 import Me from "../../img/me.png";
-import Resume from "../../assets/resume.pdf";
+import Resume from "../../assets/Nikhil_kherajani_cv.pdf";
 
 const Intro = () => {
   return (
