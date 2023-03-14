@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Website-React/static/css/main.f60bcf8a.chunk.css",
-    "main.js": "/Portfolio-Website-React/static/js/main.2d075069.chunk.js",
-    "main.js.map": "/Portfolio-Website-React/static/js/main.2d075069.chunk.js.map",
+    "main.js": "/Portfolio-Website-React/static/js/main.85fad642.chunk.js",
+    "main.js.map": "/Portfolio-Website-React/static/js/main.85fad642.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website-React/static/js/runtime-main.70773203.js",
     "runtime-main.js.map": "/Portfolio-Website-React/static/js/runtime-main.70773203.js.map",
     "static/js/2.13c43cb6.chunk.js": "/Portfolio-Website-React/static/js/2.13c43cb6.chunk.js",
@@ -11,18 +11,18 @@
     "static/css/main.f60bcf8a.chunk.css.map": "/Portfolio-Website-React/static/css/main.f60bcf8a.chunk.css.map",
     "static/js/2.13c43cb6.chunk.js.LICENSE.txt": "/Portfolio-Website-React/static/js/2.13c43cb6.chunk.js.LICENSE.txt",
     "static/media/LNCT-college.08cb9ed1.jpg": "/Portfolio-Website-React/static/media/LNCT-college.08cb9ed1.jpg",
+    "static/media/Nikhil_kherajani_cv.e97bab7f.pdf": "/Portfolio-Website-React/static/media/Nikhil_kherajani_cv.e97bab7f.pdf",
     "static/media/TechStackimg.b075ffed.png": "/Portfolio-Website-React/static/media/TechStackimg.b075ffed.png",
     "static/media/address.a01cb8cc.png": "/Portfolio-Website-React/static/media/address.a01cb8cc.png",
     "static/media/email.a49e0158.png": "/Portfolio-Website-React/static/media/email.a49e0158.png",
     "static/media/me.8a99eb36.png": "/Portfolio-Website-React/static/media/me.8a99eb36.png",
     "static/media/me2.85aaa27e.jpg": "/Portfolio-Website-React/static/media/me2.85aaa27e.jpg",
-    "static/media/phone.d90a6d23.png": "/Portfolio-Website-React/static/media/phone.d90a6d23.png",
-    "static/media/resume.9a10d3df.pdf": "/Portfolio-Website-React/static/media/resume.9a10d3df.pdf"
+    "static/media/phone.d90a6d23.png": "/Portfolio-Website-React/static/media/phone.d90a6d23.png"
   },
   "entrypoints": [
     "static/js/runtime-main.70773203.js",
     "static/js/2.13c43cb6.chunk.js",
     "static/css/main.f60bcf8a.chunk.css",
-    "static/js/main.2d075069.chunk.js"
+    "static/js/main.85fad642.chunk.js"
   ]
 }
