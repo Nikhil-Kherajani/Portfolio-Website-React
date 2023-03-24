@@ -1,6 +1,15 @@
 export const products = [
   {
     id: 1,
+    img: "",
+    link: "http://lama.dev",
+    projectname: "Hobby Connect",
+    discription:
+      "dsjafls dfjsdlfkjsf sd fjsdf fjs fs dfjsjfjsd fsf djfd dsfls fs fsd ljsld ass flsdjflsf ds fljdkjksdjf sf sd sdjls fs dljsdfksjdfk sdf sjdfk sdds fjsdfjsadfklj asdfs fekje e jfkjelkfj efjef ljaljlef ejfelkjfe gelg egelkg eg.",
+    videolink: "",
+  },
+  {
+    id: 2,
     img: "https://babble-chat-app-nk.netlify.app/static/media/logo.89df320fe2654473ab9c.png",
     link: "https://babble-chat-app-nk.netlify.app/",
     projectname: "Babble Chat App",
@@ -9,21 +18,12 @@ export const products = [
     videolink: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://img.icons8.com/color/480/null/eye-checked.png",
     link: "https://github.com/Nikhil-Kherajani/Eye-Saver",
     projectname: "Eye-Saver",
     discription:
       "It's an Eye Saver, It's a desktop software or pc program. It detects face distance and track blinking of human eye, and provides reminder for breaks. ** This Program follows 20-20-20 rule, Which states that we should take breaks every 20 minutes for at least 20 seconds, look and concentrate on distant objects from a distance of at least 20 feet to protect eyes from getting dry during screen time. **",
-    videolink: "",
-  },
-  {
-    id: 3,
-    img: "",
-    link: "http://lama.dev",
-    projectname: "project name 5",
-    discription:
-      "dsjafls dfjsdlfkjsf sd fjsdf fjs fs dfjsjfjsd fsf djfd dsfls fs fsd ljsld ass flsdjflsf ds fljdkjksdjf sf sd sdjls fs dljsdfksjdfk sdf sjdfk sdds fjsdfjsadfklj asdfs fekje e jfkjelkfj efjef ljaljlef ejfelkjfe gelg egelkg eg.",
     videolink: "",
   },
 ];

@@ -10,6 +10,11 @@
     font-weight: 600;
 }
 
+.techstackimg{
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
 
 @media screen and (max-width:480px) {
     .techstackdiv{
@@ -19,6 +24,10 @@
     .techstackp{
         font-size: 35px;
         font-weight: 600;
+    }
+    .techstackimg{
+        width: 100%;
+    
     }
 
   }

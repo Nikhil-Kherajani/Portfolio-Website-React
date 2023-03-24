@@ -2,7 +2,8 @@ import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
-import ProductList from "./components/productList/ProductList";
+// import ProductList from "./components/productList/ProductList";
+import NewProject from "./components/newProject/newProject";
 // import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import TechStack from "./components/TechStack/TechStack";
@@ -22,7 +23,8 @@ const App = () => {
       <Intro />
       <About />
       <TechStack/>
-      <ProductList />
+      <NewProject/>
+      {/* <ProductList /> */}
       <Contact />
     </div>
   );

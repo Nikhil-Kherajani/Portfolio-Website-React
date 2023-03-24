@@ -7,9 +7,10 @@ export default function TechStack() {
     <div className="techstackdiv">
       <p className="techstackp">TechStack</p>
       <img
+        className="techstackimg"
         src={TechStackimg}
         alt="TechStack"
-        style={{ width: "100%", height: "auto" }}
+        // style={{ width: "90%", height: "auto", alignSelf: "center" }}
       />
     </div>
   );
