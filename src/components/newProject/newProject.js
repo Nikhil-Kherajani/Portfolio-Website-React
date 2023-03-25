@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 // import { Helmet } from "react-helmet";
 
@@ -6,7 +6,18 @@ import "./newProject.css";
 import hobbyconnectlogo from "../../img/HobbyConnectAppLogo.png";
 import extensionlogo from "../../img/Simple Colored Photo Framed Love Themed Minimalist Movie Poster.png";
 
-const newProject = () => {
+function NewProject() {
+  // const showMoreButton = document.querySelector(".show-more-button");
+
+  // showMoreButton.addEventListener("click", () => {
+
+  // });
+  const [showMore, setShowMore] = useState(false);
+
+  function toggleShowMore() {
+    setShowMore(!showMore);
+  }
+
   return (
     <div className="pata_nahi">
       <p className="projectsheading">Projects</p>
@@ -35,7 +46,7 @@ const newProject = () => {
                 href="https://hobbyconnect.netlify.app/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link button"
+                className="home-link button pulse"
               >
                 Live Preview
               </a>
@@ -65,18 +76,18 @@ const newProject = () => {
           </div>
           <h1 className="home-text2">LeetAssist & GeeksAssist</h1>
           <span className="home-text3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-            volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
-            dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing
-            ...
+            LeetAssist & GeeksAssist are coding helper extension, provides Hints
+            and Prerequisites Question for questions on leetcode and
+            GeeksforGeeks, it has voting system and user can also contribute to
+            add hints and Prerequisites ...
           </span>
           <div className="home-container3">
             <div className="home-profile">
               <a
-                href="https://google.com"
+                href="https://leetassistandgeeksassist.netlify.app/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link button"
+                className="home-link button pulse"
               >
                 Live Preview
               </a>
@@ -92,8 +103,19 @@ const newProject = () => {
           </div>
         </div>
       </div>
+      {showMore && (
+        <div>
+          <p>work in progress </p>
+          <p>Thanks for checking, soon add more projects.</p>
+        </div>
+      )}
+      {/* <button className="show-more-button">Show more</button> */}
+
+      <button className="show-more-button" onClick={toggleShowMore}>
+        {showMore ? "Show less" : "Show more"}
+      </button>
     </div>
   );
-};
+}
 
-export default newProject;
+export default NewProject;
