@@ -1,68 +1,71 @@
 .social-menu {
-    /* margin-top: 50px; */
-    margin-bottom: 30px;
-  }
-  
-  .social-title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .social-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .social-item {
-    margin: 0 20px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .social-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    text-decoration: none;
-    /* text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5); */
-    /* box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5); */
-  }
-  .fb-icon{
-    color: #000000;
-  }
-  .tt-icon{
-    color: #1C93E4;
-  }
-  .ig-icon{
-    color: #D33066;
-  }
-  .yt-icon{
-    color: #F20000;
-  }
-  .li-icon{
-    color: #0061BE;
-  }
-  
-  .social-link:hover .social-icon {
-    transform: rotate(360deg);
-  }
-  
-  .social-icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .social-text {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.social-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-item {
+  margin: 0 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  /* text-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5); */
+}
+.fb-icon {
+  color: #000000;
+}
+.tt-icon {
+  color: #1c93e4;
+}
+.ig-icon {
+  color: #d33066;
+}
+.yt-icon {
+  color: #f20000;
+}
+.li-icon {
+  color: #0061be;
+}
+
+.social-link:hover .social-icon {
+  transform: rotate(360deg);
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

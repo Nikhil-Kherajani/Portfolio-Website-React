@@ -1,16 +1,33 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { makeStyles } from "@material-ui/core/styles";
 import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faYoutube,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+  GitHub as GitHubIcon,
+  Twitter as TwitterIcon,
+  Instagram as InstagramIcon,
+  YouTube as YouTubeIcon,
+  LinkedIn as LinkedInIcon,
+} from "@material-ui/icons";
 import "./bottom.css";
 
+const useStyles = makeStyles((theme) => ({
+  socialLink: {
+    display: "flex",
+    alignItems: "center",
+    textDecoration: "none",
+    color: theme.palette.text.secondary,
+    transition: "color 0.2s ease-in-out",
+    "&:hover": {
+      color: theme.palette.text.primary,
+    },
+  },
+  socialIcon: {
+    marginRight: theme.spacing(1),
+  },
+}));
+
 function Bottom() {
+  const classes = useStyles();
+
   return (
     <div className="social-menu">
       {/* <h1 className="social-title">Follow me</h1> */}
@@ -20,9 +37,12 @@ function Bottom() {
             href="https://github.com/Nikhil-Kherajani"
             target="_blank"
             rel="noopener noreferrer"
-            className="social-link"
+            className={classes.socialLink}
           >
-            <FontAwesomeIcon icon={faGithub} className="social-icon fb-icon" />
+            <GitHubIcon
+              fontSize="large"
+              className={`${classes.socialIcon} fb-icon`}
+            />
             {/* <span className="social-text">Facebook</span> */}
           </a>
         </li>
@@ -31,9 +51,12 @@ function Bottom() {
             href="https://twitter.com/KherajaniNikhil"
             target="_blank"
             rel="noopener noreferrer"
-            className="social-link"
+            className={classes.socialLink}
           >
-            <FontAwesomeIcon icon={faTwitter} className="social-icon tt-icon" />
+            <TwitterIcon
+              fontSize="large"
+              className={`${classes.socialIcon} tt-icon`}
+            />
             {/* <span className="social-text">Twitter</span> */}
           </a>
         </li>
@@ -42,11 +65,11 @@ function Bottom() {
             href="https://www.instagram.com/nikhil_kherajani_/"
             target="_blank"
             rel="noopener noreferrer"
-            className="social-link"
+            className={classes.socialLink}
           >
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="social-icon ig-icon"
+            <InstagramIcon
+              fontSize="large"
+              className={`${classes.socialIcon} ig-icon`}
             />
             {/* <span className="social-text">Instagram</span> */}
           </a>
@@ -56,9 +79,12 @@ function Bottom() {
             href="https://www.youtube.com/@nikhilkherajanidev"
             target="_blank"
             rel="noopener noreferrer"
-            className="social-link"
+            className={classes.socialLink}
           >
-            <FontAwesomeIcon icon={faYoutube} className="social-icon yt-icon" />
+            <YouTubeIcon
+              fontSize="large"
+              className={`${classes.socialIcon} yt-icon`}
+            />
             {/* <span className="social-text">YouTube</span> */}
           </a>
         </li>
@@ -67,11 +93,11 @@ function Bottom() {
             href="https://www.linkedin.com/in/nikhil-kherajani/"
             target="_blank"
             rel="noopener noreferrer"
-            className="social-link"
+            className={classes.socialLink}
           >
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className="social-icon li-icon"
+            <LinkedInIcon
+              fontSize="large"
+              className={`${classes.socialIcon} li-icon`}
             />
             {/* <span className="social-text">LinkedIn</span> */}
           </a>
