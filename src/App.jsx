@@ -7,6 +7,7 @@ import NewProject from "./components/newProject/newProject";
 // import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import TechStack from "./components/TechStack/TechStack";
+import Bottom from "./components/bottom/bottom";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -26,6 +27,7 @@ const App = () => {
       <NewProject/>
       {/* <ProductList /> */}
       <Contact />
+      <Bottom />
     </div>
   );
 };
