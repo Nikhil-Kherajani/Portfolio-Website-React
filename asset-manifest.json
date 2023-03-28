@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website-React/static/css/main.a7b16246.chunk.css",
-    "main.js": "/Portfolio-Website-React/static/js/main.12f49b70.chunk.js",
-    "main.js.map": "/Portfolio-Website-React/static/js/main.12f49b70.chunk.js.map",
-    "runtime-main.js": "/Portfolio-Website-React/static/js/runtime-main.70773203.js",
-    "runtime-main.js.map": "/Portfolio-Website-React/static/js/runtime-main.70773203.js.map",
-    "static/js/2.00af6966.chunk.js": "/Portfolio-Website-React/static/js/2.00af6966.chunk.js",
-    "static/js/2.00af6966.chunk.js.map": "/Portfolio-Website-React/static/js/2.00af6966.chunk.js.map",
+    "main.css": "/Portfolio-Website-React/static/css/main.6cbe76a9.chunk.css",
+    "main.js": "/Portfolio-Website-React/static/js/main.bc3825e9.chunk.js",
+    "main.js.map": "/Portfolio-Website-React/static/js/main.bc3825e9.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website-React/static/js/runtime-main.06f447f3.js",
+    "runtime-main.js.map": "/Portfolio-Website-React/static/js/runtime-main.06f447f3.js.map",
+    "static/js/2.5153d8fb.chunk.js": "/Portfolio-Website-React/static/js/2.5153d8fb.chunk.js",
+    "static/js/2.5153d8fb.chunk.js.map": "/Portfolio-Website-React/static/js/2.5153d8fb.chunk.js.map",
     "index.html": "/Portfolio-Website-React/index.html",
-    "static/css/main.a7b16246.chunk.css.map": "/Portfolio-Website-React/static/css/main.a7b16246.chunk.css.map",
-    "static/js/2.00af6966.chunk.js.LICENSE.txt": "/Portfolio-Website-React/static/js/2.00af6966.chunk.js.LICENSE.txt",
+    "static/css/main.6cbe76a9.chunk.css.map": "/Portfolio-Website-React/static/css/main.6cbe76a9.chunk.css.map",
+    "static/js/2.5153d8fb.chunk.js.LICENSE.txt": "/Portfolio-Website-React/static/js/2.5153d8fb.chunk.js.LICENSE.txt",
     "static/media/HobbyConnectAppLogo.d63cdf20.png": "/Portfolio-Website-React/static/media/HobbyConnectAppLogo.d63cdf20.png",
     "static/media/LNCT-college.08cb9ed1.jpg": "/Portfolio-Website-React/static/media/LNCT-college.08cb9ed1.jpg",
     "static/media/Nikhil_kherajani_cv.e97bab7f.pdf": "/Portfolio-Website-React/static/media/Nikhil_kherajani_cv.e97bab7f.pdf",
@@ -22,9 +22,9 @@
     "static/media/phone.d90a6d23.png": "/Portfolio-Website-React/static/media/phone.d90a6d23.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.70773203.js",
-    "static/js/2.00af6966.chunk.js",
-    "static/css/main.a7b16246.chunk.css",
-    "static/js/main.12f49b70.chunk.js"
+    "static/js/runtime-main.06f447f3.js",
+    "static/js/2.5153d8fb.chunk.js",
+    "static/css/main.6cbe76a9.chunk.css",
+    "static/js/main.bc3825e9.chunk.js"
   ]
 }
