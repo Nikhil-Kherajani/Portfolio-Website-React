@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Website-React/static/css/main.b1878039.chunk.css",
-    "main.js": "/Portfolio-Website-React/static/js/main.7cec3711.chunk.js",
-    "main.js.map": "/Portfolio-Website-React/static/js/main.7cec3711.chunk.js.map",
+    "main.js": "/Portfolio-Website-React/static/js/main.4ec7ad9c.chunk.js",
+    "main.js.map": "/Portfolio-Website-React/static/js/main.4ec7ad9c.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website-React/static/js/runtime-main.06f447f3.js",
     "runtime-main.js.map": "/Portfolio-Website-React/static/js/runtime-main.06f447f3.js.map",
     "static/js/2.5153d8fb.chunk.js": "/Portfolio-Website-React/static/js/2.5153d8fb.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.5153d8fb.chunk.js.LICENSE.txt": "/Portfolio-Website-React/static/js/2.5153d8fb.chunk.js.LICENSE.txt",
     "static/media/HobbyConnectAppLogo.d63cdf20.png": "/Portfolio-Website-React/static/media/HobbyConnectAppLogo.d63cdf20.png",
     "static/media/LNCT-college.08cb9ed1.jpg": "/Portfolio-Website-React/static/media/LNCT-college.08cb9ed1.jpg",
-    "static/media/Nikhil_kherajani_cv.e97bab7f.pdf": "/Portfolio-Website-React/static/media/Nikhil_kherajani_cv.e97bab7f.pdf",
+    "static/media/Nikhil_kherajani_cv.848fb0ab.pdf": "/Portfolio-Website-React/static/media/Nikhil_kherajani_cv.848fb0ab.pdf",
     "static/media/Simple Colored Photo Framed Love Themed Minimalist Movie Poster.686edb94.png": "/Portfolio-Website-React/static/media/Simple Colored Photo Framed Love Themed Minimalist Movie Poster.686edb94.png",
     "static/media/TechStackimg.b075ffed.png": "/Portfolio-Website-React/static/media/TechStackimg.b075ffed.png",
     "static/media/address.a01cb8cc.png": "/Portfolio-Website-React/static/media/address.a01cb8cc.png",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.06f447f3.js",
     "static/js/2.5153d8fb.chunk.js",
     "static/css/main.b1878039.chunk.css",
-    "static/js/main.7cec3711.chunk.js"
+    "static/js/main.4ec7ad9c.chunk.js"
   ]
 }
