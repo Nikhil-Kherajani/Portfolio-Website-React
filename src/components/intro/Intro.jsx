@@ -91,7 +91,7 @@ const Intro = () => {
       
     </div>
     <div className="new-div">
-            <a href={Resume} download = 'Nikhil_Kherajani_cv'><button class="button button1">Download CV</button></a>
+            <a href="https://drive.google.com/file/d/1dUlSpVoXpBzmT2aP1zntua_lOMPOT8yq/view" target="_blank" rel="noopener noreferrer" ><button class="button button1">Download CV</button></a>
             <a href="mailto:nikhilkherajani7@gmail.com" ><button class="button button2">Hire me</button></a>
           </div>
     </>
